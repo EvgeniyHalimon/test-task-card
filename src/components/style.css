@@ -1,0 +1,32 @@
+
+.step {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.stepper {
+    position: relative;
+}
+
+.step .circle {
+    background-color: rgba(209,213,219, 1);
+    border: 3px solid rgba(209,213,219, 1);
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+.step .line {
+    top: 19px;
+    left: 5px;
+    height: 60%;
+    position: absolute;
+    border-left: 1px solid rgba(209,213,219, 1);
+}
+
+.stepper:last-child .line {
+    border-left: 3px solid white;
+    z-index: -1;
+}
