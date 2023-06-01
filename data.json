@@ -8,6 +8,30 @@
 	"phone_number": "+1234",
 	"personal_email": "james@email.com",
     "linkedIn": "http://www.linkedin.com/in/james",
+	"experience": ["Senior Machine Learning Engineer at Google", "Junior Machine Learning Engineer at Uber"],
+	"education": ["Stanford University, M.S., Computer Science"]
+ },
+ {
+	"name": "John Doe",
+	"first_name": "John",
+	"last_name": "Doe",
+	"current_title": "Machine Learning Engineer",
+	"location": "San Francisco Bay Area",
+	"phone_number": "+1234",
+	"personal_email": "john@email.com",
+    "linkedIn": "http://www.linkedin.com/in/john",
+	"experience": ["Senior Machine Learning Engineer at Google", "Junior Machine Learning Engineer at Slack", "Junior Machine Learning Engineer at Slack"],
+	"education": ["Stanford University, M.S., Computer Science"]
+ },
+ {
+	"name": "Jane Doe",
+	"first_name": "Jane",
+	"last_name": "Doe",
+	"current_title": "Machine Learning Engineer",
+	"location": "San Francisco Bay Area",
+	"phone_number": "+1234",
+	"personal_email": "jane@email.com",
+    "linkedIn": "http://www.linkedin.com/in/jane",
 	"experience": ["Senior Machine Learning Engineer at Google", "Junior Machine Learning Engineer at Google"],
 	"education": ["Stanford University, M.S., Computer Science"]
  }

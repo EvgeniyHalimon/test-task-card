@@ -9,9 +9,15 @@ const Card: FC<ICard> = ({ cardInfo }) => {
         <div className="flex flex-col  py-3 border-gray-300 border-b mb-3">
             <div className="flex items-center gap-5">
                 <p className="italic text-lg">{cardInfo.name}</p>
-                <FaPhone className="text-gray-500 m-0"/>
-                <FaEnvelope className="text-gray-500 m-0"/>
-                <FaLinkedin className="pl-2 border-gray-300 border-l m-0 w-7"/>
+                <a href="#" title={cardInfo.phone_number}>
+                    <FaPhone className="text-gray-500 m-0"/>
+                </a>
+                <a href={cardInfo.personal_email}>
+                    <FaEnvelope className="text-gray-500 m-0"/>
+                </a>
+                <a href={cardInfo.linkedIn}>
+                    <FaLinkedin className="pl-2 border-gray-300 border-l m-0 w-7"/>
+                </a>
             </div>
 
             <div className="flex items-center">

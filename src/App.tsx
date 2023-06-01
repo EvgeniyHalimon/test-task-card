@@ -5,7 +5,7 @@ import Card from './components/Card'
 function App() {
 
   return (
-    <div className='flex gap-4'>
+    <div className='flex flex-col gap-4'>
       {infoCards.map((infoCard) => 
         <Card cardInfo={infoCard} key={infoCard.name}/>
       )}
